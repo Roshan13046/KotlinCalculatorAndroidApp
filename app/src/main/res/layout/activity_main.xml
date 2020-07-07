@@ -82,7 +82,7 @@
             android:layout_marginTop="2dp"
             android:layout_marginRight="2dp"
             android:layout_marginLeft="2dp"
-            android:text="X"
+            android:text="x"
             android:textStyle="bold"
             android:textSize="20sp"
             android:background="#f70cbc"
