@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
                 if(tvValue.startsWith("-")){
                     //this if will make the input -234 to 234 ignoring starting -
                     prefix = "-"
-                    tvValue = tvValue.substring(1)
+                    tvValue = tvValue.substring(1)//-215 // ignores - sign at start
                 }
 
 
@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
                     tvInput.text = removeZeroAfterDot((one.toDouble() - two.toDouble()).toString())
                 }else if(tvValue.contains("+")){
                     val splitValue = tvValue.split("+")
-                    //for rg : 23-244
+                    //for rg : 23+244
                     var one = splitValue[0] //has val 23
                     var two = splitValue[1] //has val 244
 
@@ -74,13 +74,13 @@ class MainActivity : AppCompatActivity() {
                         one = prefix + one
                     }
                     tvInput.text = removeZeroAfterDot((one.toDouble() + two.toDouble()).toString())
-                }else if(tvValue.contains("X")){
-                    val splitValue = tvValue.split("X")
+                }else if(tvValue.contains("x")){
+                    val splitValue = tvValue.split("x")
                     //for rg : 23-244
                     var one = splitValue[0] //has val 23
                     var two = splitValue[1] //has val 244
 
-                    //if prefix is not empty then this tells that it has "X" so add it to one string var
+                    //if prefix is not empty then this tells that it has "x" so add it to one string var
                     if(!prefix.isEmpty()){
                         one = prefix + one
                     }
@@ -115,7 +115,7 @@ class MainActivity : AppCompatActivity() {
         return if(value.startsWith("-")){
             false
         }else{
-            value.contains("/") || value.contains("X") || value.contains("+") || value.contains("-")
+            value.contains("/") || value.contains("x") || value.contains("+") || value.contains("-")
         }
     }
     
