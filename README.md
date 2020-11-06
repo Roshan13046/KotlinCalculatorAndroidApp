@@ -34,7 +34,7 @@ The different functionalities of my app are as follows:
 
 ## Contributions
 
-Read the [Contribution Guidlines](https://github.com/Roshan13046/Kotlin_Drawing_App/blob/master/Contribution.md) before you contribute.
+Read the [Contribution Guidlines](https://github.com/Roshan13046/KotlinCalculatorAndroidApp/blob/master/Contribution.md) before you contribute.
 
 You can also create an issue or [contact us](https://github.com/Roshan13046) if you have any doubts.
 
