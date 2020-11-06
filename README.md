@@ -27,9 +27,10 @@ The different functionalities of my app are as follows:
 ⚡️ The app has multiple buttons:
 
   - ✔️ First group of buttons are from 0 1o 9.   
-  - ✔️ Second group of buttons are of +, -, %, /, ^. 
+  - ✔️ Second group of buttons are of +, -, x, /. 
   - ✔️ Third group of buttons are .
   - ✔️ Fourth group of buttons are =
+  - ✔️ Fourth group of buttons are CLR
 
 ## Contributions
 
